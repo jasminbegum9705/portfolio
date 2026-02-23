@@ -101,8 +101,8 @@ This project was created to:
 
 Feel free to connect with me for collaboration or opportunities.
 
-GitHub: jasminb9705  
-LinkedIn: (Add your link)  
+LinkedIn: [LinkedIn](https:/linkedin.com/in/jasmin-begum-a590883a8)
+GitHub: [GitHub](https:/github.com/jasminbegum9705)
 
 ---
 
