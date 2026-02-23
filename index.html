@@ -159,6 +159,7 @@ nav a:hover{
     justify-content: center;
     gap: 20px;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: 22.5px;
 
@@ -301,9 +302,27 @@ footer{
 }
 
 @media (max-width: 768px) {
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
   .container {
+    align-items: center;
     flex-direction: column;
   }
+  
   h1 {
     font-size: 24px;
   }
