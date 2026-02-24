@@ -122,7 +122,8 @@ nav a:hover{
 .doodle{
     position:absolute;
     font-size:40px;
-    opacity:0.4;
+    animation: floatAnim 6s ease-in-out infinite;
+    opacity: 0.3;
 }
 
 .d1{ top:50px; left:30px; }
@@ -299,6 +300,16 @@ footer{
     padding:20px;
     background:#fff0f5;
     margin-top:50px;
+}
+
+@keyframes floatAnim {
+    0%, 100% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-20px);
+}
+
 }
 
 @media (max-width: 768px) {
